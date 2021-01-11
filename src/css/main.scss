@@ -1,7 +1,14 @@
 @import "variables";
 @import "base";
 @import "components/hero";
+@import "layout/header";
+@import "base/typographie";
+@import "abstracts/mixins";
+@import "components/button";
 
+
+/* Aus dem Template von Eric
 :root {
   --div-color: red;
 }
+*/

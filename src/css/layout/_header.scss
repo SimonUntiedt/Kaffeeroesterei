@@ -1,0 +1,15 @@
+.header {
+    height: 65vh; /* 65% der viewport height */ 
+    background-image: linear-gradient(to right bottom, $color-anthrazit-clear, $color-anthrazit-clear), url(../img/FEND-Coffee-latte-art-3.png);
+    background-size: cover; /* egal welche Breite der Viewport hat, das Element wird immer eingepasst */
+    background-position: center; /*Bild wird in der Mitte zum Viewport ausgerichtet */
+    position: relative; 
+
+    &__text-box{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+}
