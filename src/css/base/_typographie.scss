@@ -22,6 +22,68 @@ body {
     margin-bottom: 7rem;
 }
 
+.FirstSection__h2{
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 1,1%;
+    color: $color-anthrazit;
+    margin-bottom: 2.5rem;
+}
 
+.FirstSection__text-top{
+    margin-bottom: 2rem;
+}
+
+.FirstSection__text-right{
+    margin-left: 9rem;
+}
+
+.SecondSection__h3{
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 1,1%;
+    color: $color-anthrazit;
+    margin-bottom: 2.5rem;
+}
+
+.ThirdSection__h2{
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 1,1%;
+    color: $color-white;
+    margin-left: 7rem;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.Kaffeesorten__text-main{
+    color: $color-white;
+    margin-top: 1rem;
+    margin-bottom: 0,5rem;
+}
+
+.Kaffeesorten__text-price{
+    color: $color-medium-grey;
+    margin-top: 0.3rem;
+    margin-bottom: 0.4rem;
+}
+
+.Text__Box-Four{
+    color: $color-white;
+    max-width: 300px;
+    text-align: center;
+
+    &-H3{
+        font-weight: 900;
+        font-size: 42px;
+        line-height: 1,1%;
+    }
+
+    &-main{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1,3%;
+    }
+}
 
 
