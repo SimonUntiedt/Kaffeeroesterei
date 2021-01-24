@@ -1,26 +1,75 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0;
+    text-decoration: none;
+    letter-spacing: 0;
+    color: $color_white;
+    font-size: 18px;
+    max-width: 100%;
+
+    &__2{
+        display: flex;
+    }
+}
+
+
+
+.Logo__box{
+    margin-top: 0.5rem;
+    margin-left: 5rem;
+    align-self: flex-start;
+}
+
+.Logo{
+    width: 32px;
+}
+
+.menu__item{
+    margin-top: 0.8rem;
+    margin-right: 5rem;
+}
+
 .FirstSection{
     display: flex;
     justify-content: space-between;
     background-color: $color_white;
     padding: 7rem;
+    max-width: 100%;
 
     &__text-box{
-        margin-right: 7rem;
+        padding-right: 7rem;
     }
-
+    
     &__text-sub{
         display: flex;
     }
+
+    &__IMG-box{
+        max-width: 40vw;
+    }
+
+    &__IMG{
+        max-width: 100%;
+
+    }
 }
 
-.FirstSection__IMG{
-    width: 60%;
-}
 
 .SecondSection{
     display: flex;
     background-color: $color_white;
     padding: 0 7rem 7rem 7rem;
+    max-width: 100%;
+
+    &__IMG-box{
+        max-width: 40vw;
+    }
+
+    &__text-box{
+        padding-left: 7rem;
+    }
 }
 
 .ThirdSection{
@@ -61,8 +110,12 @@
     background-image: linear-gradient(to right bottom, $color-anthrazit-clear, $color-anthrazit-clear), url(../img/FEND-Coffee-bags-2.png);
     background-size: cover; /* egal welche Breite der Viewport hat, das Element wird immer eingepasst */
     background-position: center; /*Bild wird in der Mitte zum Viewport ausgerichtet */
-    position: flex;
+    display: flex;
     justify-content: center; 
+}
+
+.Text__Box-Four{
+    margin-top: 8rem;
 }
 
 .FifthSection{
@@ -91,6 +144,11 @@
 }
 
 .icon__text{
+   margin-left: 2rem;
+   padding-top: 0.5rem;
+}
+
+.icon__container{
     display: flex;
 }
 
@@ -98,3 +156,26 @@
     margin-left: 7rem;
     padding-top: 4rem;
 }
+
+.footer{
+    background-color: $color-anthrazit;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0;
+    text-decoration: none;
+    letter-spacing: 0;
+    color: $color_white;
+}
+
+.footer__text-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.footer__logo{
+    width: 4rem;
+    padding-bottom: 1rem;
+}
+

@@ -1,0 +1,40 @@
+// Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+// @media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) { ... }
+
+// Very large desktop devices (1920px and up)
+// @media (min-width: 1920px) { ... }
+
+// Ich würde meine mixins media-sm, media-md, media-lg, media-xl und media-xxl nennen. Aber das ist euch frei wie ihr das naming und die Struktur macht.
+
+//@mixin media-sm {
+//    @media (max-width: 576px) { @content };
+//}
+
+@mixin respond($breakpoint) {
+    @if $breakpoint == media-sm {
+        @media (max-width: 36em) { @content }; //576px
+    }
+    @if $breakpoint == media-md {
+        @media (max-width: 47,5em) { @content }; //768px
+    }
+    @if $breakpoint == media-lg {
+        @media (max-width: 62em) { @content }; //992px
+    }
+    @if $breakpoint == media-xl {
+        @media (max-width: 75em) { @content }; //1200px
+    }
+    @if $breakpoint == media-xxl {
+        @media (min-width: 120em) { @content }; //1920px
+    }
+}
+
+// !important am CSS Tag weist den Befehl als zu bevorzugen aus
